@@ -1,15 +1,9 @@
-import Link from 'next/link'
+import Layout from '../components/Layout'
 
 const Index = () => (
-  <div>
-    <Link  href="/about">
-      <a title="Pagina de about">About Page</a>
-    </Link>
-    <Link  href="/about">
-      <button>Go to About Page</button>
-    </Link>
+  <Layout>
     <p>Hello Next.js</p>
-  </div>
+  </Layout>
 )
 
 export default Index
